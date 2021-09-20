@@ -17,14 +17,12 @@ form.addEventListener('submit', e => {
     }
   });
 
+  // Scroll to the top page - Window Object
+  scrollTo(0,0);
+
   // console.log(score);
   // Show result on page
   result.querySelector('span').textContent = `${score}%`;
   result.classList.remove('d-none');
-
-  // Scroll to the top page - Window Object
-  
-
-
 
 });
